@@ -1,0 +1,65 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: rgba(56, 56, 56, 0.397);
+}
+
+/*         nav bar     */
+.nav{
+    background-color: black;
+}
+.nav ul{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+
+    font-size: 25px;
+}
+.nav ul li:hover{
+    border-bottom: 1px solid white;
+    transition: 0.2s;
+}
+.nav .items{
+    color:aliceblue;
+    text-decoration: none;
+}
+/*     home     */
+.home{
+    height: 200px;
+    background-color: antiquewhite;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+/*     product     */
+.prod{
+    height: 200px;
+    background-color:rgba(0, 0, 255, 0.362);
+    font-size: 30px;
+    color: black;
+}
+.prod h2{
+    text-align: center;
+}
+.prod ul{
+    width: 200px;
+    margin: auto;
+    list-style:decimal;
+}
+
+/*    admin */
+.admin{
+    height: 200px;
+    background-color: plum;
+    text-align: center;
+    font-size: 30px;
+}

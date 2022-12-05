@@ -1,23 +1,11 @@
 import React from "react";
 
-const Admin =()=>{
+let Admin=()=>{
     return(
-        <div>
-            Admin - Name
-            <div>
-            Admin - Name
+        <div className="admin">
+            <h2>Admin -</h2>
+            <p> Salauddin</p>
         </div>
-        <div>
-            Admin - Name
-        </div>
-        <div>
-            Admin - Name
-        </div>
-        <div>
-            Admin - Name
-        </div>
-        </div>
-        
     )
 }
 
